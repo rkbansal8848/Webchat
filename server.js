@@ -1,7 +1,7 @@
 const cors = require('cors');
 const io = require('socket.io')(process.env.PORT || 8000, {
   cors: {
-    origin: 'http://127.0.0.1:6500',
+    origin: 'https://chatwebsite-rkbansal8848.onrender.com',
     methods: ['GET', 'POST']
   }
 });
