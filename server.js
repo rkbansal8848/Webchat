@@ -1,7 +1,7 @@
 const cors = require('cors');
 const io = require('socket.io')(process.env.PORT || 8000, {
   cors: {
-    origin: 'https://chatwebsite-byrkbansal.onrender.com/pages/index.html',
+    origin: 'https://chatwebsite-byrkbansal.onrender.com/pages',
     methods: ['GET', 'POST']
   }
 });
