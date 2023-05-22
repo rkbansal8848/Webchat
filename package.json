@@ -1,0 +1,14 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "nodeserver for webchat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rk Bansal",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1"
+  }
+}
