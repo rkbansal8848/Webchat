@@ -1,7 +1,7 @@
 const cors = require('cors');
 const io = require('socket.io')(process.env.PORT || 8000, {
   cors: {
-    origin: 'https://render.com',
+    origin: 'http://127.0.0.1:6500/pages/index.html',
     methods: ['GET', 'POST']
   }
 });
